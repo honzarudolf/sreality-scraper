@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "scraper"
+version = "0.1.0"
+description = ""
+authors = ["Jan Rudolf <rudolja4@fit.cvut.cz>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+scrapy = "^2.11.0"
+python-dotenv = "^1.0.0"
+scrapy-playwright = "^0.0.33"
+psycopg2-binary = "^2.9.9"
+
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.10.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
