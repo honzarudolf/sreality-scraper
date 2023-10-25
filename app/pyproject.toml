@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "app"
+version = "0.1.0"
+description = ""
+authors = ["Jan Rudolf <rudolja4@fit.cvut.cz>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+psycopg2-binary = "^2.9.9"
+dash = "^2.14.0"
+pandas = "2.0.1"
+python-dotenv = "^1.0.0"
+dash-bootstrap-components = "^1.5.0"
+sqlalchemy = "^2.0.22"
+
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.10.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
